@@ -1,18 +1,32 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Qiansen 钱森 · Computer Science at Hohai University" width="100%" />
+  <img src="assets/header.svg" alt="Qian Sen 钱森 · Computer Science at Hohai University" width="100%" />
 </p>
 
 <p align="center">
-  <a href="README.md"><b>中文</b></a> · <a href="README.en.md">English</a>
+  <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.md"><b>中文</b></a> · <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.en.md">English</a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="#research-focus">Research</a> · <a href="#selected-projects">Projects</a> · <a href="#beyond-code">Beyond code</a>
+  <a href="#my-journey">My journey</a> · <a href="#research-focus">Research</a> · <a href="#selected-projects">Projects</a> · <a href="#contact">Contact</a>
 </p>
 
 ## About me
 
-你好，我是 **钱森（Qiansen）**，河海大学计算机科学与技术专业本科生。
+你好，我是 **钱森（Qian Sen）**，河海大学计算机科学与技术专业本科生。
 
 目前关注 **大模型推理优化**，重点探索 KV Cache 压缩、注意力头预算分配与多任务缓存复用。也参与无人机环境感知、学生行为建模与音频身份识别项目，喜欢从具体问题出发，把想法落实到代码与实验中。
+
+## My journey
+
+高考的严重失利，曾让我与理想中的高校失之交臂。但我没有因此自暴自弃，也不愿用一次考试的结果定义自己。我选择继续努力学习，一点点充实自己。
+
+大一时，我在河海大学物联网工程（IoT）专业排名第一。出于对计算机科学与技术的热爱，我选择转入计算机专业，去学习自己真正喜欢的东西。
+
+大二这一年，我用一年时间修读了原本分布在大一、大二两年的课程，取得了**学年绩点排名 2/210、累计绩点排名 3/210** 的成绩，在所有转入计算机专业的同学中，学业成绩位列第一。直到大三，我才终于补完转专业需要补修的所有课程，有了些许喘息的机会。
+
+大二升大三的暑假，出于对科研的热爱，我加入了本校的边缘智能课题组。我先花了一个星期，通过阅读综述和经典论文，逐步建立起对大语言模型的基础认识，再循着自己的兴趣，选择 **KV Cache 缓存优化** 作为进一步钻研的方向。
+
+接下来的一个月，我围绕驱逐、合并、量化和预算分配等方法，阅读了六十余篇论文，覆盖 2024 年以来这一领域的核心工作，其中约十篇进行了更深入的精读。那段打基础的日子，我每天从早上六点读到晚上十点，几乎把所有的时间都投入到学习里。
+
+> 我可能并不是一个有着出色起点的学生，但我相信勤能补拙，相信踏踏实实做事一定会有所回报。我也希望，有一天能靠自己的不懈努力，在计算机领域闯出属于自己的一片天地。
 
 ## Research focus
 
@@ -67,9 +81,10 @@
 | :--- | :--- | :--- |
 | Python · C++ · Rust | PyTorch · scikit-learn | AirSim · OpenCV · Git |
 
-## Beyond code
+## Contact
 
-代码之外，也喜欢王家卫的电影、石黑一雄的文字，以及 IU 的音乐。
+**GitHub** · [@qiansen0809-droid](https://github.com/qiansen0809-droid)  
+**Email** · [seanchian@foxmail.com](mailto:seanchian@foxmail.com)
 
 ---
 
