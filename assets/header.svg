@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
-<title id="title">Qiansen 钱森 — Computer Science at Hohai University</title>
+<title id="title">Qian Sen 钱森 — Computer Science at Hohai University</title>
 <desc id="desc">A dark navy editorial header. Research, code and curiosity. Thinking deeply, building with care.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111d35"/><stop offset="1" stop-color="#0a1020"/></linearGradient>
@@ -21,7 +21,7 @@
 <circle cx="1089" cy="77" r="4" fill="#d5b696"/>
 <circle cx="920" cy="229" r="3" fill="#a6bbef"/>
 <text x="52" y="52" fill="#9fadc7" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="13" letter-spacing="3.2">RESEARCH / CODE / CURIOSITY</text>
-<text x="49" y="132" fill="#f1f4fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="66" font-weight="650" letter-spacing="-1.7">Qiansen <tspan fill="#c7d3eb" font-size="39" font-weight="400" letter-spacing="3">钱森</tspan></text>
+<text x="49" y="132" fill="#f1f4fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="66" font-weight="650" letter-spacing="-1.7">Qian Sen <tspan fill="#c7d3eb" font-size="39" font-weight="400" letter-spacing="3">钱森</tspan></text>
 <text x="53" y="174" fill="#a9b9d5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="21">Computer Science @ Hohai University</text>
 <path d="M53 207 H680" stroke="#34445e"/>
 <text x="53" y="251" fill="#e3e8f3" font-family="Georgia,'Times New Roman',serif" font-size="27" font-style="italic">Thinking deeply. Building with care.</text>
