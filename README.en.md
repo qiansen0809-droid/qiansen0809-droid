@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.md">中文</a> · <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.en.md"><b>English</b></a>
+  <a href="https://github.com/qiansen0809-droid"><b>English</b></a> · <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.zh-CN.md">中文</a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="#my-journey">My journey</a> · <a href="#research-focus">Research</a> · <a href="#selected-projects">Projects</a> · <a href="#contact">Contact</a>
 </p>
@@ -16,9 +16,9 @@ My current interests center on **efficient LLM inference**, particularly KV cach
 
 ## My journey
 
-A major setback in China's national college entrance examination kept me from attending the university I had dreamed of. But I did not give up on myself, and I did not want a single exam to define me. I chose to keep learning and to build myself up, one step at a time.
+A major setback in the Gaokao kept me from attending the university I had dreamed of. But I did not give up on myself, and I did not want a single exam to define me. I chose to keep learning and to build myself up, one step at a time.
 
-In my first year at Hohai University, I ranked first in the Internet of Things Engineering (IoT) program. Drawn by a genuine love of computer science, I transferred to Computer Science and Technology to study what I truly wanted to learn.
+In my first year at Hohai University, I **ranked 1st** in the Internet of Things Engineering (IoT) program. Drawn by a genuine love of computer science, I transferred to Computer Science and Technology to study what I truly wanted to learn.
 
 During my second year, I took courses normally spread across the first two years, earning a **GPA rank of 2/210 for the academic year and 3/210 cumulatively**, with the highest academic standing among students who had transferred into the program. It was not until my third year that I finally finished all the additional courses required by the transfer and had a little room to breathe.
 
