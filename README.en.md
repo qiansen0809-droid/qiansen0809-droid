@@ -1,18 +1,32 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Qiansen 钱森 · Computer Science at Hohai University" width="100%" />
+  <img src="assets/header.svg" alt="Qian Sen 钱森 · Computer Science at Hohai University" width="100%" />
 </p>
 
 <p align="center">
-  <a href="README.md">中文</a> · <a href="README.en.md"><b>English</b></a>
+  <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.md">中文</a> · <a href="https://github.com/qiansen0809-droid/qiansen0809-droid/blob/main/README.en.md"><b>English</b></a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="#research-focus">Research</a> · <a href="#selected-projects">Projects</a> · <a href="#beyond-code">Beyond code</a>
+  <a href="#my-journey">My journey</a> · <a href="#research-focus">Research</a> · <a href="#selected-projects">Projects</a> · <a href="#contact">Contact</a>
 </p>
 
 ## About me
 
-Hi, I'm **Qiansen (钱森)**, an undergraduate studying Computer Science and Technology at **Hohai University**.
+Hi, I'm **Qian Sen (钱森)**, an undergraduate studying Computer Science and Technology at **Hohai University**.
 
 My current interests center on **efficient LLM inference**, particularly KV cache compression, head-wise budget allocation, and cache reuse across tasks. I also work on projects in drone perception, student behavior modeling, and audio-based identity recognition, turning concrete questions into code and experiments.
+
+## My journey
+
+A major setback in China's national college entrance examination kept me from attending the university I had dreamed of. But I did not give up on myself, and I did not want a single exam to define me. I chose to keep learning and to build myself up, one step at a time.
+
+In my first year at Hohai University, I ranked first in the Internet of Things Engineering (IoT) program. Drawn by a genuine love of computer science, I transferred to Computer Science and Technology to study what I truly wanted to learn.
+
+During my second year, I took courses normally spread across the first two years, earning a **GPA rank of 2/210 for the academic year and 3/210 cumulatively**, with the highest academic standing among students who had transferred into the program. It was not until my third year that I finally finished all the additional courses required by the transfer and had a little room to breathe.
+
+In the summer between my second and third years, my interest in research led me to join the university's Edge Intelligence Research Group. I spent the first week reading surveys and foundational papers, gradually building a basic understanding of large language models. Following my curiosity, I chose **KV cache optimization** as the direction I wanted to explore further.
+
+Over the following month, I read more than sixty papers spanning eviction, merging, quantization, and budget allocation, covering key work in the field since 2024. I studied about ten of these in greater depth. During that month of building foundations, I read from six in the morning until ten at night, devoting almost all my time to learning.
+
+> I may not be a student with an exceptional starting point, but I believe hard work can make up for what I lack, and that steady, honest effort will bear fruit. I hope that, one day, my persistence will help me find my own place in computer science.
 
 ## Research focus
 
@@ -67,9 +81,10 @@ I explore this question through paper reading, reproduction of representative me
 | :--- | :--- | :--- |
 | Python · C++ · Rust | PyTorch · scikit-learn | AirSim · OpenCV · Git |
 
-## Beyond code
+## Contact
 
-Away from code, I enjoy Wong Kar-wai's films, Kazuo Ishiguro's writing, and IU's music.
+**GitHub** · [@qiansen0809-droid](https://github.com/qiansen0809-droid)  
+**Email** · [seanchian@foxmail.com](mailto:seanchian@foxmail.com)
 
 ---
 
