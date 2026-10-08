@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">Qiansen 钱森 — Computer Science at Hohai University</title>
+<desc id="desc">A dark navy editorial header. Research, code and curiosity. Thinking deeply, building with care.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111d35"/><stop offset="1" stop-color="#0a1020"/></linearGradient>
+<linearGradient id="stroke" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#5491b9"/><stop offset="0.5" stop-color="#a5b9eb"/><stop offset="1" stop-color="#d3b39b"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.85" fill="#50607d" opacity="0.30"/></pattern>
+<clipPath id="round"><rect width="1200" height="350" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+<rect width="1200" height="350" fill="url(#bg)"/>
+<rect x="700" width="500" height="350" fill="url(#dots)"/>
+<path d="M810 350 L1115 0" stroke="#a4b9de" stroke-opacity="0.06" stroke-width="130"/>
+<g fill="none" stroke="url(#stroke)" stroke-width="1.3" opacity="0.75">
+<ellipse cx="1006" cy="157" rx="106" ry="117" transform="rotate(-36 1006 157)"/>
+<ellipse cx="1006" cy="157" rx="106" ry="83" transform="rotate(-36 1006 157)"/>
+<ellipse cx="1006" cy="157" rx="106" ry="42" transform="rotate(-36 1006 157)"/>
+<path d="M921 86 Q964 172 1091 228"/>
+<path d="M940 65 Q998 148 1107 198" opacity="0.55"/>
+</g>
+<circle cx="1089" cy="77" r="4" fill="#d5b696"/>
+<circle cx="920" cy="229" r="3" fill="#a6bbef"/>
+<text x="52" y="52" fill="#9fadc7" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="13" letter-spacing="3.2">RESEARCH / CODE / CURIOSITY</text>
+<text x="49" y="132" fill="#f1f4fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="66" font-weight="650" letter-spacing="-1.7">Qiansen <tspan fill="#c7d3eb" font-size="39" font-weight="400" letter-spacing="3">钱森</tspan></text>
+<text x="53" y="174" fill="#a9b9d5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="21">Computer Science @ Hohai University</text>
+<path d="M53 207 H680" stroke="#34445e"/>
+<text x="53" y="251" fill="#e3e8f3" font-family="Georgia,'Times New Roman',serif" font-size="27" font-style="italic">Thinking deeply. Building with care.</text>
+<text x="53" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">EFFICIENT AI</text>
+<circle cx="173" cy="303" r="2" fill="#d5b696"/>
+<text x="190" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">VISUAL PERCEPTION</text>
+<circle cx="361" cy="303" r="2" fill="#d5b696"/>
+<text x="378" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">MACHINE LEARNING</text>
+<text x="1146" y="307" text-anchor="end" fill="#697b9b" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="2">A WORK IN PROGRESS</text>
+</g></svg>
