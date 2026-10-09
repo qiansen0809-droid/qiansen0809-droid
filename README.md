@@ -16,6 +16,8 @@ My current interests center on **efficient LLM inference**, particularly KV cach
 
 ## My journey
 
+My defining qualities are a refusal to give up, resilience, and perseverance.
+
 A major setback in the Gaokao kept me from attending the university I had dreamed of. But I did not give up on myself, and I did not want a single exam to define me. I chose to keep learning and to build myself up, one step at a time.
 
 In my first year at Hohai University, I **ranked 1st** in the Internet of Things Engineering (IoT) program. Drawn by a genuine love of computer science, I transferred to Computer Science and Technology to study what I truly wanted to learn.
