@@ -4,8 +4,8 @@
   const toggle = document.getElementById('language-toggle');
   const description = document.querySelector('meta[name="description"]');
   const descriptions = {
-    en: 'Qian Sen, a Computer Science undergraduate at Hohai University. Research interests: efficient LLM inference, KV cache compression, and head-wise budget allocation.',
-    zh: '钱森，河海大学计算机科学与技术专业本科生，关注大模型推理优化、KV Cache 压缩与注意力头预算分配。'
+    en: 'Qian Sen, a Computer Science undergraduate at Hohai University. Current research: KV cache optimization for efficient LLM inference. Interests: world models, video generation, and inference optimization.',
+    zh: '钱森，河海大学计算机科学与技术专业本科生，目前研究大语言模型中的 KV Cache 推理优化，研究兴趣包括世界模型、视频生成与推理优化。'
   };
   function applyLanguage(language, updateUrl = false) {
     const isChinese = language === 'zh';
