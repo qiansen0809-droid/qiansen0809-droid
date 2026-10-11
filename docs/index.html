@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17395b">
+  <meta name="description" content="Qian Sen, a Computer Science undergraduate at Hohai University. Research interests: efficient LLM inference, KV cache compression, and head-wise budget allocation.">
+  <meta property="og:title" content="Qian Sen | Academic Homepage">
+  <meta property="og:description" content="Computer Science at Hohai University · Efficient LLM inference · KV cache research">
+  <meta property="og:type" content="website">
+  <title>Qian Sen | Academic Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="header-inner">
+    <a class="wordmark" href="#about" aria-label="Qian Sen, home">Qian Sen<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about" class="active"><span data-lang="en">About</span><span data-lang="zh">关于我</span></a>
+      <a href="#research"><span data-lang="en">Research</span><span data-lang="zh">研究</span></a>
+      <a href="#projects"><span data-lang="en">Projects</span><span data-lang="zh">项目</span></a>
+      <a href="#journey"><span data-lang="en">My journey</span><span data-lang="zh">我的经历</span></a>
+      <a href="#contact"><span data-lang="en">Contact</span><span data-lang="zh">联系</span></a>
+    </nav>
+    <button id="language-toggle" class="language" type="button" aria-label="Switch to Chinese" title="Switch to Chinese">中文 <span aria-hidden="true">↔</span></button>
+  </div>
+</header>
+<div class="page-shell">
+  <aside class="profile" aria-label="Profile">
+    <a class="portrait-link" href="assets/portrait.avif" target="_blank" rel="noopener noreferrer" aria-label="Open personal photo">
+      <img class="portrait" src="assets/portrait.avif" width="480" height="640" alt="Personal photo provided by Qian Sen" fetchpriority="high">
+    </a>
+    <div class="profile-copy">
+      <h2 class="profile-name">Qian Sen <span lang="zh-CN">钱森</span></h2>
+      <p class="profile-role"><span data-lang="en">Undergraduate · Computer Science</span><span data-lang="zh">计算机科学与技术 · 本科生</span></p>
+      <p class="affiliation"><span data-lang="en">Hohai University</span><span data-lang="zh">河海大学</span></p>
+      <p class="group"><span data-lang="en">Edge Intelligence Research Group</span><span data-lang="zh">边缘智能课题组</span></p>
+      <div class="profile-links">
+        <a href="mailto:seanchian@foxmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>seanchian@foxmail.com</span></a>
+        <a href="https://github.com/qiansen0809-droid" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8 4 12l4 4m8-8 4 4-4 4m-3-11-2 22"/></svg><span>GitHub <span class="subtle">↗</span></span></a>
+      </div>
+      <div class="sidebar-focus"><span class="eyebrow" data-lang="en">RESEARCH INTERESTS</span><span class="eyebrow" data-lang="zh">研究兴趣</span><p>Efficient LLM inference<br>KV cache optimization<br>Head-wise budget allocation</p></div>
+      <p class="sidebar-note"><span data-lang="en">Stay curious.<br>Keep building.</span><span data-lang="zh">保持好奇。<br>踏实前行。</span></p>
+    </div>
+  </aside>
+  <main id="main">
+    <section id="about" class="about section">
+      <div class="eyebrow">COMPUTER SCIENCE &nbsp; / &nbsp; EFFICIENT AI</div>
+      <h1><span data-lang="en">About me</span><span data-lang="zh">关于我</span></h1>
+      <div class="intro" data-lang="en">
+        <p>Hi, I'm <strong>Qian Sen</strong>, an undergraduate studying Computer Science and Technology at <strong>Hohai University</strong>, and a member of the university's Edge Intelligence Research Group.</p>
+        <p>My current interests center on <strong>efficient LLM inference</strong>, particularly KV cache compression, head-wise budget allocation, and cache reuse across tasks. I also work on drone perception, student behavior modeling, and audio-based identity recognition.</p>
+        <p class="closing-intro">I like turning concrete questions into code and experiments.</p>
+      </div>
+      <div class="intro" data-lang="zh">
+        <p>你好，我是<strong>钱森（Qian Sen）</strong>，<strong>河海大学</strong>计算机科学与技术专业本科生，也是本校边缘智能课题组的一员。</p>
+        <p>目前关注<strong>大模型推理优化</strong>，重点探索 KV Cache 压缩、注意力头预算分配与多任务缓存复用。也参与无人机环境感知、学生行为建模与音频身份识别项目。</p>
+        <p class="closing-intro">我喜欢从具体问题出发，把想法落实到代码与实验中。</p>
+      </div>
+      <div class="academic-note">
+        <div><strong>3 / 210</strong><span data-lang="en">Cumulative GPA rank</span><span data-lang="zh">累计绩点排名</span></div>
+        <div><strong>2 / 210</strong><span data-lang="en">Second-year GPA rank</span><span data-lang="zh">大二学年绩点排名</span></div>
+        <div><strong>1st</strong><span data-lang="en">First year · IoT program</span><span data-lang="zh">大一 · 物联网工程专业</span></div>
+      </div>
+    </section>
+    <section id="research" class="section">
+      <div class="section-heading"><span class="section-number">01</span><h2><span data-lang="en">Research focus</span><span data-lang="zh">研究方向</span></h2></div>
+      <p class="research-question" data-lang="en">What information should we keep<br class="wide-only"> when the cache budget is limited?</p>
+      <p class="research-question" data-lang="zh">如何在有限的缓存预算下，<br class="wide-only">保留真正重要的信息？</p>
+      <p data-lang="en">I explore this question through paper reading, reproduction of representative methods, and experimental analysis. My work on allocation strategies and cache reuse is ongoing.</p>
+      <p data-lang="zh">围绕这一问题，我开展相关文献阅读、代表性方法复现与实验分析，探索预算分配和缓存复用的改进思路。研究持续进行中。</p>
+      <div class="tags"><span>KV cache compression</span><span>Head-wise allocation</span><span>Efficient inference</span></div>
+      <a class="text-link notes-link" href="https://github.com/qiansen0809-droid/CausalDuel-KV/tree/main/notes/handwritten" target="_blank" rel="noopener noreferrer"><span data-lang="en">My handwritten reading notes</span><span data-lang="zh">我的手写阅读笔记</span><span aria-hidden="true">↗</span></a>
+    </section>
+    <section id="projects" class="section">
+      <div class="section-heading"><span class="section-number">02</span><h2><span data-lang="en">Selected projects</span><span data-lang="zh">研究与项目</span></h2></div>
+      <article class="project">
+        <div class="project-index" aria-hidden="true">01</div>
+        <div class="project-content">
+          <div class="project-topline"><span class="project-category">LLM INFERENCE</span><span class="status"><span data-lang="en">Ongoing research</span><span data-lang="zh">研究中</span></span></div>
+          <h3><a href="https://github.com/qiansen0809-droid/CausalDuel-KV" target="_blank" rel="noopener noreferrer">KV Cache Research <span aria-hidden="true">↗</span></a></h3>
+          <p data-lang="en">Learning, reproduction, and experimental exploration based on LU-KV / kvpress, with a focus on allocating cache resources across attention heads and reusing caches across tasks.</p>
+          <p data-lang="zh">基于 LU-KV / kvpress 等已有工作开展方法学习、复现与实验探索，关注注意力头间的缓存资源分配与多任务缓存复用。</p>
+          <div class="project-meta">KV Cache <span>·</span> PyTorch <span>·</span> Long-context inference</div>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-index" aria-hidden="true">02</div>
+        <div class="project-content">
+          <div class="project-topline"><span class="project-category">VISUAL PERCEPTION</span><span class="status"><span data-lang="en">Research prototype</span><span data-lang="zh">原型探索</span></span></div>
+          <h3><a href="https://github.com/qiansen0809-droid/BEV_Drone_Project" target="_blank" rel="noopener noreferrer">BEV Drone Project <span aria-hidden="true">↗</span></a></h3>
+          <p data-lang="en">RGB and depth capture in AirSim, geometric projection into bird's-eye-view maps, and exploratory CLIP image/text encoding and semantic matching.</p>
+          <p data-lang="zh">基于 AirSim 采集 RGB 与深度信息，通过几何投影生成鸟瞰视角（BEV）地图，并探索 CLIP 图文编码与语义匹配。</p>
+          <div class="project-meta">AirSim <span>·</span> OpenCV <span>·</span> CLIP</div>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-index" aria-hidden="true">03</div>
+        <div class="project-content">
+          <div class="project-topline"><span class="project-category">APPLIED MACHINE LEARNING</span></div>
+          <h3><a href="https://github.com/qiansen0809-droid/StudentBehavior" target="_blank" rel="noopener noreferrer">StudentBehavior <span aria-hidden="true">↗</span></a></h3>
+          <p data-lang="en">A multi-source campus-data pipeline for feature engineering, employment-risk prediction, model comparison, and ensemble learning, with K-Means clustering for student behavior profiles.</p>
+          <p data-lang="zh">整合多源校园行为数据，构建特征工程、就业风险预测、模型比较与集成学习流程，结合 K-Means 聚类分析学生行为画像。</p>
+          <div class="project-meta">scikit-learn <span>·</span> Ensemble learning <span>·</span> K-Means</div>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-index" aria-hidden="true">04</div>
+        <div class="project-content">
+          <div class="project-topline"><span class="project-category">ACOUSTIC REPRESENTATION</span></div>
+          <h3><a href="https://github.com/qiansen0809-droid/EAR-Recognition-x-vectors" target="_blank" rel="noopener noreferrer">EAR Recognition <span aria-hidden="true">↗</span></a></h3>
+          <p data-lang="en">Adapting an existing x-vector pipeline to EAR audio, using MFCCs, a TDNN, statistical pooling, and a PLDA backend for identity matching and scoring.</p>
+          <p data-lang="zh">适配 EAR 音频数据，沿用 MFCC、TDNN 与统计池化提取 x-vector，结合 PLDA 探索身份匹配与评分。</p>
+          <div class="project-meta">PyTorch <span>·</span> x-vector <span>·</span> PLDA</div>
+        </div>
+      </article>
+      <p class="project-footnote" data-lang="en">These are research activities and projects I participate in. Reproduction, adaptation, and original contributions are distinguished in the respective repositories.</p>
+      <p class="project-footnote" data-lang="zh">这里展示的是我的研究实践与参与项目；复现、适配和原创贡献分别说明，具体实现范围以各仓库文档为准。</p>
+    </section>
+    <section id="journey" class="section journey">
+      <div class="section-heading"><span class="section-number">03</span><h2><span data-lang="en">My journey</span><span data-lang="zh">我的经历</span></h2></div>
+      <div data-lang="en">
+        <p class="journey-lead">My defining qualities are a refusal to give up, resilience, and perseverance.</p>
+        <p>A major setback in the Gaokao kept me from attending the university I had dreamed of. But I did not give up on myself, and I did not want a single exam to define me. I chose to keep learning and to build myself up, one step at a time.</p>
+        <p>In my first year at Hohai University, I <strong>ranked 1st</strong> in the Internet of Things Engineering (IoT) program. Drawn by a genuine love of computer science, I transferred to Computer Science and Technology to study what I truly wanted to learn.</p>
+        <p>During my second year, I took courses normally spread across the first two years, earning a <strong>GPA rank of 2/210 for the academic year and 3/210 cumulatively</strong>, with the highest academic standing among students who had transferred into the program. It was not until my third year that I finally finished all the additional courses required by the transfer and had a little room to breathe.</p>
+        <p>In the summer between my second and third years, my interest in research led me to join the university's Edge Intelligence Research Group. I spent the first week reading surveys and foundational papers, gradually building a basic understanding of large language models. Following my curiosity, I chose <strong>KV cache optimization</strong> as the direction I wanted to explore further.</p>
+        <p>Over the following month, I read more than sixty papers spanning eviction, merging, quantization, and budget allocation, covering key work in the field since 2024. I studied about ten of these in greater depth. During that month of building foundations, I read from six in the morning until ten at night, devoting almost all my time to learning.</p>
+        <blockquote>I may not be a student with an exceptional starting point, but I believe hard work can make up for what I lack, and that steady, honest effort will bear fruit. I hope that, one day, my persistence will help me find my own place in computer science.</blockquote>
+      </div>
+      <div data-lang="zh">
+        <p class="journey-lead">我身上最大的特点是永不言败、坚强、有毅力。</p>
+        <p>高考的严重失利，曾让我与理想中的高校失之交臂。但我没有因此自暴自弃，也不愿用一次考试的结果定义自己。我选择继续努力学习，一点点充实自己。</p>
+        <p>大一时，我在河海大学物联网工程（IoT）专业<strong>排名第一</strong>。出于对计算机科学与技术的热爱，我选择转入计算机专业，去学习自己真正喜欢的东西。</p>
+        <p>大二这一年，我用一年时间修读了原本分布在大一、大二两年的课程，取得了<strong>学年绩点排名 2/210、累计绩点排名 3/210</strong> 的成绩，在所有转入计算机专业的同学中，学业成绩位列第一。直到大三，我才终于补完转专业需要补修的所有课程，有了些许喘息的机会。</p>
+        <p>大二升大三的暑假，出于对科研的热爱，我加入了本校的边缘智能课题组。我先花了一个星期，通过阅读综述和经典论文，逐步建立起对大语言模型的基础认识，再循着自己的兴趣，选择 <strong>KV Cache 缓存优化</strong>作为进一步钻研的方向。</p>
+        <p>接下来的一个月，我围绕驱逐、合并、量化和预算分配等方法，阅读了六十余篇论文，覆盖 2024 年以来这一领域的核心工作，其中约十篇进行了更深入的精读。那段打基础的日子，我每天从早上六点读到晚上十点，几乎把所有的时间都投入到学习里。</p>
+        <blockquote>我可能并不是一个有着出色起点的学生，但我相信勤能补拙，相信踏踏实实做事一定会有所回报。我也希望，有一天能靠自己的不懈努力，在计算机领域闯出属于自己的一片天地。</blockquote>
+      </div>
+    </section>
+    <section id="education" class="section">
+      <div class="section-heading"><span class="section-number">04</span><h2><span data-lang="en">Education &amp; tools</span><span data-lang="zh">教育与技能</span></h2></div>
+      <div class="education-row"><div><h3><span data-lang="en">Hohai University</span><span data-lang="zh">河海大学</span></h3><p><span data-lang="en">Undergraduate · Computer Science and Technology</span><span data-lang="zh">本科 · 计算机科学与技术</span></p></div><span class="education-status"><span data-lang="en">Current</span><span data-lang="zh">在读</span></span></div>
+      <dl class="toolbox"><div><dt><span data-lang="en">Programming</span><span data-lang="zh">编程</span></dt><dd>Python · C++ · Rust</dd></div><div><dt><span data-lang="en">Models &amp; data</span><span data-lang="zh">模型与数据</span></dt><dd>PyTorch · scikit-learn</dd></div><div><dt><span data-lang="en">Development</span><span data-lang="zh">仿真与开发</span></dt><dd>AirSim · OpenCV · Git</dd></div></dl>
+    </section>
+    <section id="contact" class="section contact">
+      <div class="section-heading"><span class="section-number">05</span><h2><span data-lang="en">Get in touch</span><span data-lang="zh">联系我</span></h2></div>
+      <p data-lang="en">For conversations about research, projects, or ideas, feel free to reach out.</p><p data-lang="zh">欢迎就研究、项目或感兴趣的问题交流。</p>
+      <a class="email-link" href="mailto:seanchian@foxmail.com">seanchian@foxmail.com <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="https://github.com/qiansen0809-droid" target="_blank" rel="noopener noreferrer">GitHub · @qiansen0809-droid <span aria-hidden="true">↗</span></a>
+    </section>
+    <footer><span>© <span id="year">2026</span> Qian Sen</span><span data-lang="en">Stay curious. Keep building.</span><span data-lang="zh">保持好奇，踏实前行。</span><a href="#about" aria-label="Back to top">↑ <span data-lang="en">Back to top</span><span data-lang="zh">返回顶部</span></a></footer>
+  </main>
+</div>
+</body>
+</html>
