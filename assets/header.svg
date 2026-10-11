@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
 <title id="title">Qian Sen 钱森 — Computer Science at Hohai University</title>
-<desc id="desc">A dark navy editorial header. Research, code and curiosity. Thinking deeply, building with care.</desc>
+<desc id="desc">A dark navy editorial header. Research, code and curiosity. Stay hungry, stay foolish.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111d35"/><stop offset="1" stop-color="#0a1020"/></linearGradient>
 <linearGradient id="stroke" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#5491b9"/><stop offset="0.5" stop-color="#a5b9eb"/><stop offset="1" stop-color="#d3b39b"/></linearGradient>
@@ -24,11 +24,11 @@
 <text x="49" y="132" fill="#f1f4fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="66" font-weight="650" letter-spacing="-1.7">Qian Sen <tspan fill="#c7d3eb" font-size="39" font-weight="400" letter-spacing="3">钱森</tspan></text>
 <text x="53" y="174" fill="#a9b9d5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="21">Computer Science @ Hohai University</text>
 <path d="M53 207 H680" stroke="#34445e"/>
-<text x="53" y="251" fill="#e3e8f3" font-family="Georgia,'Times New Roman',serif" font-size="27" font-style="italic">Thinking deeply. Building with care.</text>
-<text x="53" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">EFFICIENT AI</text>
+<text x="53" y="251" fill="#e3e8f3" font-family="Georgia,'Times New Roman',serif" font-size="27" font-style="italic">Stay hungry, stay foolish.</text>
+<text x="53" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">WORLD MODELS</text>
 <circle cx="173" cy="303" r="2" fill="#d5b696"/>
-<text x="190" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">VISUAL PERCEPTION</text>
+<text x="190" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">VIDEO GENERATION</text>
 <circle cx="361" cy="303" r="2" fill="#d5b696"/>
-<text x="378" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">MACHINE LEARNING</text>
+<text x="378" y="307" fill="#9aaccc" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="1.5">INFERENCE OPTIMIZATION</text>
 <text x="1146" y="307" text-anchor="end" fill="#697b9b" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" letter-spacing="2">A WORK IN PROGRESS</text>
 </g></svg>
