@@ -40,7 +40,7 @@ I am developing original importance and eviction-loss metrics to guide reinforce
 <p><b>Long-context inference · Cache allocation</b></p>
 <p>Designing original importance and eviction-loss metrics from future attention patterns, and training a REINFORCE policy for head-wise KV cache budget allocation after prefill.</p>
 <p><code>KV Cache</code> <code>PyTorch</code> <code>Long-context inference</code></p>
-<p><a href="https://github.com/qiansen0809-droid/CausalDuel-KV">Explore the project ↗</a> &nbsp; <sub>Research fork · Ongoing</sub></p>
+<p><a href="https://github.com/qiansen0809-droid/SketchAlloc-KV">Explore the project ↗</a> &nbsp; <sub>Research fork · Ongoing</sub></p>
 </td>
 <td width="50%" valign="top">
 <h3>02 / BEV Drone Project</h3>
