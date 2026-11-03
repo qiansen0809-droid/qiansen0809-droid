@@ -69,10 +69,9 @@
       <div class="section-heading"><span class="section-number">01</span><h2><span data-lang="en">Research focus</span><span data-lang="zh">研究方向</span></h2></div>
       <p class="research-question" data-lang="en">What information should we keep<br class="wide-only"> when the cache budget is limited?</p>
       <p class="research-question" data-lang="zh">如何在有限的缓存预算下，<br class="wide-only">保留真正重要的信息？</p>
-      <p data-lang="en">I explore this question through paper reading, reproduction of representative methods, and experimental analysis. My work on allocation strategies and cache reuse is ongoing.</p>
-      <p data-lang="zh">围绕这一问题，我开展相关文献阅读、代表性方法复现与实验分析，探索预算分配和缓存复用的改进思路。研究持续进行中。</p>
+      <p data-lang="en">I am developing original importance and eviction-loss metrics to guide reinforcement learning for head-wise KV cache budget allocation. Experiments are ongoing.</p>
+      <p data-lang="zh">目前，我正设计 Importance 与 Eviction Loss 指标，并利用强化学习优化注意力头间的 KV Cache 预算分配，相关实验仍在进行中。</p>
       <div class="tags"><span>KV cache compression</span><span>Head-wise allocation</span><span>Efficient inference</span></div>
-      <a class="text-link notes-link" href="https://github.com/qiansen0809-droid/CausalDuel-KV/tree/main/notes/handwritten" target="_blank" rel="noopener noreferrer"><span data-lang="en">My handwritten reading notes</span><span data-lang="zh">我的手写阅读笔记</span><span aria-hidden="true">↗</span></a>
     </section>
     <section id="projects" class="section">
       <div class="section-heading"><span class="section-number">02</span><h2><span data-lang="en">Selected projects</span><span data-lang="zh">研究与项目</span></h2></div>
@@ -81,8 +80,8 @@
         <div class="project-content">
           <div class="project-topline"><span class="project-category">LLM INFERENCE</span><span class="status"><span data-lang="en">Ongoing research</span><span data-lang="zh">研究中</span></span></div>
           <h3><a href="https://github.com/qiansen0809-droid/CausalDuel-KV" target="_blank" rel="noopener noreferrer">KV Cache Research <span aria-hidden="true">↗</span></a></h3>
-          <p data-lang="en">Learning, reproduction, and experimental exploration based on LU-KV / kvpress, with a focus on allocating cache resources across attention heads and reusing caches across tasks.</p>
-          <p data-lang="zh">基于 LU-KV / kvpress 等已有工作开展方法学习、复现与实验探索，关注注意力头间的缓存资源分配与多任务缓存复用。</p>
+          <p data-lang="en">Designing original importance and eviction-loss metrics from future attention patterns, and training a REINFORCE policy for head-wise KV cache budget allocation after prefill.</p>
+          <p data-lang="zh">设计基于未来注意力读取模式的 Importance 与 Eviction Loss 指标，并使用 REINFORCE 在 Prefill 后分配各注意力头的 KV Cache 预算。</p>
           <div class="project-meta">KV Cache <span>·</span> PyTorch <span>·</span> Long-context inference</div>
         </div>
       </article>
