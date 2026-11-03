@@ -28,9 +28,8 @@ I like turning concrete questions into code and experiments.
 
 `KV cache compression` &nbsp; `Head-wise allocation` &nbsp; `Efficient inference`
 
-I explore this question through paper reading, reproduction of representative methods, and experimental analysis. My work on allocation strategies and cache reuse is ongoing.
+I am developing original importance and eviction-loss metrics to guide reinforcement learning for head-wise KV cache budget allocation. Experiments are ongoing.
 
-[My handwritten reading notes](https://github.com/qiansen0809-droid/CausalDuel-KV/tree/main/notes/handwritten)
 
 ## Selected projects
 
@@ -39,7 +38,7 @@ I explore this question through paper reading, reproduction of representative me
 <td width="50%" valign="top">
 <h3>01 / KV Cache Research</h3>
 <p><b>Long-context inference · Cache allocation</b></p>
-<p>Learning, reproduction, and experimental exploration based on LU-KV / kvpress, with a focus on allocating cache resources across attention heads and reusing caches across tasks.</p>
+<p>Designing original importance and eviction-loss metrics from future attention patterns, and training a REINFORCE policy for head-wise KV cache budget allocation after prefill.</p>
 <p><code>KV Cache</code> <code>PyTorch</code> <code>Long-context inference</code></p>
 <p><a href="https://github.com/qiansen0809-droid/CausalDuel-KV">Explore the project ↗</a> &nbsp; <sub>Research fork · Ongoing</sub></p>
 </td>
