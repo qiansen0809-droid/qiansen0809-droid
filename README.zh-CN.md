@@ -28,9 +28,8 @@
 
 `KV cache compression` &nbsp; `Head-wise allocation` &nbsp; `Efficient inference`
 
-围绕这一问题，我开展相关文献阅读、代表性方法复现与实验分析，探索预算分配和缓存复用的改进思路。研究持续进行中。
+目前，我正设计 Importance 与 Eviction Loss 指标，并利用强化学习优化注意力头间的 KV Cache 预算分配，相关实验仍在进行中。
 
-[我的手写阅读笔记](https://github.com/qiansen0809-droid/CausalDuel-KV/tree/main/notes/handwritten)
 
 ## Selected projects
 
@@ -39,7 +38,7 @@
 <td width="50%" valign="top">
 <h3>01 / KV Cache Research</h3>
 <p><b>长上下文推理 · 缓存预算分配</b></p>
-<p>基于 LU-KV / kvpress 等已有工作开展方法学习、复现与实验探索，关注注意力头间的缓存资源分配与多任务缓存复用。</p>
+<p>设计基于未来注意力读取模式的 Importance 与 Eviction Loss 指标，并使用 REINFORCE 在 Prefill 后分配各注意力头的 KV Cache 预算。</p>
 <p><code>KV Cache</code> <code>PyTorch</code> <code>Long-context inference</code></p>
 <p><a href="https://github.com/qiansen0809-droid/CausalDuel-KV">查看项目 ↗</a> &nbsp; <sub>Research fork · 研究中</sub></p>
 </td>
