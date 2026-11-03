@@ -40,7 +40,7 @@
 <p><b>长上下文推理 · 缓存预算分配</b></p>
 <p>设计基于未来注意力读取模式的 Importance 与 Eviction Loss 指标，并使用 REINFORCE 在 Prefill 后分配各注意力头的 KV Cache 预算。</p>
 <p><code>KV Cache</code> <code>PyTorch</code> <code>Long-context inference</code></p>
-<p><a href="https://github.com/qiansen0809-droid/CausalDuel-KV">查看项目 ↗</a> &nbsp; <sub>Research fork · 研究中</sub></p>
+<p><a href="https://github.com/qiansen0809-droid/SketchAlloc-KV">查看项目 ↗</a> &nbsp; <sub>Research fork · 研究中</sub></p>
 </td>
 <td width="50%" valign="top">
 <h3>02 / BEV Drone Project</h3>
